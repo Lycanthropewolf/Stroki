@@ -3,7 +3,7 @@ public class Main {
 
 
         // Задание 1
-        String firstName = " Иван";
+        String firstName = " Семён";
         String middleMame = " Иванов";
         String lastName = " Иванович";
         String fullName = middleMame +firstName +lastName;
@@ -15,7 +15,6 @@ public class Main {
         System.out.println(" Данные ФИО сотрудника для заполнения отчета" + fullNameMax);
 
         // Задание 3
-        fullName = " Иванов Семён Иванович";
         fullName = fullName.replace( "ё","е");
         System.out.println(" Данные ФИО сотрудника" +fullName);
 
