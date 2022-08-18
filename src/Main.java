@@ -17,7 +17,7 @@ public class Main {
         // Задание 3
         fullName = "Иванов Семён Семёнович";
         String rename = fullName.replace('ё', 'е');
-        System.out.println("Данные ФИО сотрудника" + fullName);
+        System.out.println("Данные ФИО сотрудника " + rename);
 
         String[] cemen = fullName.split(" ");
         for (String cema : cemen) {
@@ -33,6 +33,7 @@ public class Main {
             } else {
                 System.out.print(cema + " ");
             }
+
         }
 
 
