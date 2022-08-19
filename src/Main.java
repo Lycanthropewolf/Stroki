@@ -62,16 +62,15 @@ public class Main {
 
         // Задание 4
 
-        String FIO= "Ivanov Ivan Ivanovich";
+        String FIO = "Ivanov Ivan Ivanovich";
         System.out.println(FIO.indexOf(" "));
         System.out.println(FIO.lastIndexOf(" "));
         String surName1 = FIO.substring(0, 6);
-        String name1 = FIO.substring(7,11);
-        String fatherName = FIO.substring(12,FIO.length());
-        System.out.println("Имя сотрудника "+name1);
-        System.out.println("Фамилия сотрудника " + surName1 );
-        System.out.println("Отчество сотрудника "+ fatherName);
-
+        String name1 = FIO.substring(7, 11);
+        String fatherName = FIO.substring(12, FIO.length());
+        System.out.println("Имя сотрудника " + name1);
+        System.out.println("Фамилия сотрудника " + surName1);
+        System.out.println("Отчество сотрудника " + fatherName);
 
 
         // Задание 5
@@ -94,8 +93,9 @@ public class Main {
 – Результат программы выведен в консоль согласно условиям задачи.*/
 
         String fullname5 = "ivanov ivan ivanovich";
-        char[] letters = fullname5.toCharArray();
-        String myString = Character.toString(letters[0]);
+        String[] fullNameSeparation = fullname5.split(" ");
+        char[] letters1 = fullNameSeparation[0].toCharArray();
+        String myString = Character.toString(letters1[0]);
         String s1 = myString.toUpperCase();
         System.out.println(s1);
 
@@ -115,8 +115,13 @@ public class Main {
 – При изменении содержания строки результат программы выполняется.
 – Результат программы выведен в консоль согласно условиям задачи.
 */
+        String firstString = "135";
+        String secondString = "246";
+        StringBuilder doubleString = new StringBuilder(firstString);
+        doubleString.append(secondString);
+        System.out.println(doubleString);
 
-         // Задание 7
+        // Задание 7
        /* Дана строка из букв английского алфавита "aabccddefgghiijjkk".
                 Нужно найти и напечатать буквы, которые дублируются в строке.
                 Обратите внимание, что строка отсортирована, т. е. дубли идут друг за другом.
