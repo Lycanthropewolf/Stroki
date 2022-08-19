@@ -121,6 +121,8 @@ public class Main {
         doubleString.append(secondString);
         System.out.println(doubleString);
 
+
+
         // Задание 7
        /* Дана строка из букв английского алфавита "aabccddefgghiijjkk".
                 Нужно найти и напечатать буквы, которые дублируются в строке.
