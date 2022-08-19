@@ -92,6 +92,7 @@ public class Main {
 – При изменении содержания строки результат программы выполняется.
 – Результат программы выведен в консоль согласно условиям задачи.*/
 
+        //Задание 5
         String fullname5 = "ivanov ivan ivanovich";
         String[] fullNameSeparation = fullname5.split(" ");
         char[] letters1 = fullNameSeparation[0].toCharArray();
@@ -115,6 +116,7 @@ public class Main {
 – При изменении содержания строки результат программы выполняется.
 – Результат программы выведен в консоль согласно условиям задачи.
 */
+        //Задание 6
         String firstString = "135";
         String secondString = "246";
         StringBuilder doubleString = new StringBuilder(firstString + secondString);
