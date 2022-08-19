@@ -95,7 +95,9 @@ public class Main {
 
         String fullname5 = "ivanov ivan ivanovich";
         char[] letters = fullname5.toCharArray();
-
+        String myString = Character.toString(letters[0]);
+        String s1 = myString.toUpperCase();
+        System.out.println(s1);
 
 
         // Задание 6
