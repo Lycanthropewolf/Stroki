@@ -97,7 +97,7 @@ public class Main {
         char[] letters1 = fullNameSeparation[0].toCharArray();
         String myString = Character.toString(letters1[0]);
         String s1 = myString.toUpperCase();
-        System.out.println(s1);
+        System.out.println(letters1);
 
 
         // Задание 6
@@ -117,9 +117,14 @@ public class Main {
 */
         String firstString = "135";
         String secondString = "246";
-        StringBuilder doubleString = new StringBuilder(firstString);
-        doubleString.append(secondString);
+        StringBuilder doubleString = new StringBuilder(firstString + secondString);
         System.out.println(doubleString);
+        doubleString.setCharAt(1, '2');
+        doubleString.setCharAt(2,'3');
+        doubleString.setCharAt(3,'4');
+        doubleString.setCharAt(4,'5');
+        System.out.println(doubleString);
+        
 
 
 
