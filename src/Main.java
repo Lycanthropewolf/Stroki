@@ -97,7 +97,6 @@ public class Main {
         String[] fullNameSeparation = fullname5.split(" ");
         char[] letters1 = fullNameSeparation[0].toCharArray();
         String myString = Character.toString(letters1[0]);
-        String s1 = myString.toUpperCase();
         System.out.println(letters1);
 
 
